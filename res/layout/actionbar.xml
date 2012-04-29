@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActionBarCompat" >
+
+    <ImageView
+        android:id="@+id/actionbar_home"
+        style="@style/ActionBarCompatLogo" />
+
+    <TextView
+        android:id="@+id/appName"
+        style="@style/ActionBarCompatText"
+        android:text="@string/app_name" />
+
+
+</LinearLayout>

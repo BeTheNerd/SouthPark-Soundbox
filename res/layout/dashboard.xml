@@ -1,0 +1,34 @@
+<stephane.castrec.spbox.fragment.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/dash_all"
+        android:drawableTop="@drawable/actions_speaker_icon"
+        android:text="@string/dashboard_all" 
+        android:background="@drawable/yellowbtn"
+        style="@style/ButtonText"/>
+
+    <Button
+        android:id="@+id/dash_favorites"
+        android:drawableTop="@drawable/favorites_icon"
+        android:text="@string/dashboard_Favorite" 
+        android:background="@drawable/yellowbtn"
+        style="@style/ButtonText"/>
+
+    <Button
+        android:id="@+id/dash_search"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/search_icon"
+        android:text="@string/dashboard_search" 
+        android:visibility="gone"/>
+
+    <!--
+         <Button
+        android:id="@+id/dash_pers"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/search-icon"
+        android:text="@string/dashboard_pers" />
+    -->
+
+</stephane.castrec.spbox.fragment.DashboardLayout>

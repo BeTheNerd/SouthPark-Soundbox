@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="actionbar_compat_height">50dp</dimen>
+	<dimen name="actionbar_logo">50dp</dimen>
+	<dimen name="actionbar_title_size">18sp</dimen>
+	<dimen name="margin_global">15dip</dimen>
+	<dimen name="margin_layout_intra_cell">5dip</dimen>
+    
+</resources>

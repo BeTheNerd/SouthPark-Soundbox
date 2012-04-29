@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">South Park SoundBox</string>
+    <string name="dashboard_all">Soundbox</string>
+    <string name="dashboard_search">Rechercher</string>
+    <string name="dashboard_Favorite">Favoris</string>
+    <string name="dashboard_pers">personnages</string>
+    <!-- characters -->
+    <string name="cartman">Cartman</string>
+    <string name="kyle">Kyle</string>
+    <string name="stan">Stan</string>
+    <string name="kenny">Kenny</string>
+    <string name="mackey">McKey</string>
+    <string name="garrison">Garrison</string>
+    <string name="other">Other</string>
+    <!-- Menu -->
+    <string name="menu_rate">Noter cette app</string>
+    <string name="menu_request">Réclamer un sons</string>
+    
+    <string name="no_fav">Vous n\'avez pas encore de favoris</string>
+
+</resources>
