@@ -3,22 +3,44 @@
 
     <string name="app_name">South Park SoundBox </string>
     <string name="dashboard_all">SoundBox</string>
-    <string name="dashboard_search">Search</string>
+    <string name="dashboard_search">Search by name</string>
+    <string name="dashboard_lastupdate">Last Updates</string>
     <string name="dashboard_Favorite">Favorites sounds</string>
     <string name="dashboard_pers">persons</string>
+    <string name="more_actions">More actions</string>
+    <string name="more_actions_ringtones">Set as ringtone</string>
+    <string name="more_actions_copy">Copy to SDCard</string>
+    <string name="more_share">Share this sound</string>
     <!-- characters -->
+    <string name="select_char">Select a character</string>
     <string name="cartman">Cartman</string>
     <string name="kyle">Kyle</string>
     <string name="stan">Stan</string>
     <string name="kenny">Kenny</string>
     <string name="mackey">McKey</string>
     <string name="garrison">Garrison</string>
+    <string name="jimbo">Jimbo</string>
+    <string name="principale">Principale</string>
+    <string name="chef">Chef</string>
+    <string name="barbrady">Barbrady</string>
+    <string name="servietsky">Servietsky</string>
+    <string name="jesus">Jesus</string>
+    <string name="jimmy">Jimmy</string>
+    <string name="gdperemarch">Grand father March</string>
+    <string name="algay">Al Super Gay</string>
+    <string name="timmy">Timmy</string>
     <string name="other">Other</string>
     <!-- Menu -->
     <string name="menu_rate">Rate this app</string>
     <string name="menu_request">Request sound</string>
+    <string name="no_fav">No favorites.</string>
+    <!-- Msg -->
+    <string name="msg_ringtone_error">Error adding ringtone. Do you have a SDCard?</string>
+    <string name="msg_ringtone_ok">This sound is now your ringtone</string>
+    <string name="msg_copy_error">Error adding to SDCard. Do you have a SDCard?</string>
+    <string name="msg_copy_ok">Sound available in</string>
     
-        <string name="no_fav">No favorites.</string>
-    
+    <string name="share_title">SouthPark Soundbox</string>
+    <string name="share_msg">I like this sound. Listen it too and find out all the sounds on the Android app here:</string>
 
 </resources>

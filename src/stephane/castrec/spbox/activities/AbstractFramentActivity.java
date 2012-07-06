@@ -12,6 +12,9 @@ import android.view.MenuItem;
 public abstract class AbstractFramentActivity extends FragmentActivity {
 
 	private GoogleAnalyticsTracker tracker = null;
+	static public final String INTENT_KEY = "list";
+	static public final String INTENT_NAMES = "names";
+
 
 	  
 	@Override
@@ -52,6 +55,8 @@ public abstract class AbstractFramentActivity extends FragmentActivity {
 	@Override
 	public void onStop(){
 		super.onStop();
+		if(tracker != null)
+			tracker.stopSession();
 	}
 	
 	public GoogleAnalyticsTracker getTracker(){

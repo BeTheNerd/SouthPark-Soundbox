@@ -13,16 +13,23 @@ public class ListActivity extends AbstractFramentActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.listactivitylayout);
-		
-        mList = (ListSoundFragment) this.getSupportFragmentManager().findFragmentById(R.id.list);
-		switch ((Categories)this.getIntent().getExtras().get(DashboardActivity.INTENT_KEY)) {
-		case ALL:
-			mList.updateList(Categories.ALL);
-			break;
-		case FAVORITES:
-			mList.updateList(Categories.FAVORITES);
-			break;
-		}
+
+		mList = (ListSoundFragment) this.getSupportFragmentManager().findFragmentById(R.id.list);
+		if(this.getIntent().getExtras() != null && this.getIntent().getExtras() != null)
+			switch ((Categories)this.getIntent().getExtras().get(DashboardActivity.INTENT_KEY)) {
+			case ALL:
+				mList.updateList(Categories.ALL, "");
+				break;
+			case FAVORITES:
+				mList.updateList(Categories.FAVORITES, "");
+				break;
+			case LAST_UPDATE:
+				mList.updateList(Categories.LAST_UPDATE, "");
+				break;
+			case BY_NAME:
+				mList.updateList(Categories.BY_NAME, this.getIntent().getStringExtra(DashboardActivity.INTENT_NAMES));
+				break;
+			}
 	}
 
 

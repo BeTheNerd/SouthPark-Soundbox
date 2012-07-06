@@ -3,8 +3,10 @@
     android:layout_width="fill_parent"
     android:layout_height="80dip"
     android:gravity="center_vertical"
-    android:orientation="horizontal" >
-
+    android:orientation="horizontal" 
+    android:clickable="true"
+    android:background="@drawable/item_view_selector">
+    
     <ImageView
         android:id="@+id/item_pers"
         android:layout_width="60dip"

@@ -29,45 +29,57 @@ public final class R {
     }
     public static final class drawable {
         public static final int actions_speaker_icon=0x7f020000;
-        public static final int blackgrad=0x7f020001;
-        public static final int btn_star_big_off=0x7f020002;
-        public static final int btn_star_big_off_pressed=0x7f020003;
-        public static final int btn_star_big_on_pressed=0x7f020004;
-        public static final int cartman=0x7f020005;
-        public static final int favorite_icon_select=0x7f020006;
-        public static final int favorite_icon_unselect=0x7f020007;
-        public static final int favorites_icon=0x7f020008;
-        public static final int garrison=0x7f020009;
-        public static final int ic_launcher=0x7f02000a;
-        public static final int ic_menu_add=0x7f02000b;
-        public static final int ic_menu_star=0x7f02000c;
-        public static final int icon=0x7f02000d;
-        public static final int kenny=0x7f02000e;
-        public static final int kyle=0x7f02000f;
-        public static final int mckey=0x7f020010;
-        public static final int pause=0x7f020011;
-        public static final int play=0x7f020012;
-        public static final int search_icon=0x7f020013;
-        public static final int splash=0x7f020014;
-        public static final int stan=0x7f020015;
-        public static final int stop=0x7f020016;
-        public static final int transparent=0x7f020017;
-        public static final int yellowbtn=0x7f020018;
+        public static final int all=0x7f020001;
+        public static final int barbrady=0x7f020002;
+        public static final int blackgrad=0x7f020003;
+        public static final int btn_star_big_off=0x7f020004;
+        public static final int btn_star_big_off_pressed=0x7f020005;
+        public static final int btn_star_big_on_pressed=0x7f020006;
+        public static final int cartman=0x7f020007;
+        public static final int chef=0x7f020008;
+        public static final int favorite_icon_select=0x7f020009;
+        public static final int favorite_icon_unselect=0x7f02000a;
+        public static final int favorites_icon=0x7f02000b;
+        public static final int garrison=0x7f02000c;
+        public static final int ic_launcher=0x7f02000d;
+        public static final int ic_menu_add=0x7f02000e;
+        public static final int ic_menu_star=0x7f02000f;
+        public static final int icon=0x7f020010;
+        public static final int item_view_selector=0x7f020011;
+        public static final int jesus=0x7f020012;
+        public static final int jimbo=0x7f020013;
+        public static final int jimmy=0x7f020014;
+        public static final int kenny=0x7f020015;
+        public static final int kyle=0x7f020016;
+        public static final int mckey=0x7f020017;
+        public static final int news=0x7f020018;
+        public static final int pause=0x7f020019;
+        public static final int play=0x7f02001a;
+        public static final int principal=0x7f02001b;
+        public static final int search_icon=0x7f02001c;
+        public static final int servietsky=0x7f02001d;
+        public static final int splash=0x7f02001e;
+        public static final int stan=0x7f02001f;
+        public static final int stop=0x7f020020;
+        public static final int timmy=0x7f020021;
+        public static final int transparent=0x7f020022;
+        public static final int yellowbtn=0x7f020023;
     }
     public static final class id {
-        public static final int actionBar=0x7f090009;
+        public static final int actionBar=0x7f09000a;
         public static final int actionbar_home=0x7f090000;
         public static final int appName=0x7f090001;
         public static final int dash_all=0x7f090002;
         public static final int dash_favorites=0x7f090003;
+        public static final int dash_last=0x7f090005;
         public static final int dash_search=0x7f090004;
-        public static final int item_pers=0x7f090005;
-        public static final int item_play=0x7f090008;
-        public static final int item_ratingBar=0x7f090006;
-        public static final int item_title=0x7f090007;
-        public static final int list=0x7f09000a;
-        public static final int rate=0x7f09000b;
-        public static final int request=0x7f09000c;
+        public static final int item_pers=0x7f090006;
+        public static final int item_play=0x7f090009;
+        public static final int item_ratingBar=0x7f090007;
+        public static final int item_title=0x7f090008;
+        public static final int list=0x7f09000b;
+        public static final int rate=0x7f09000c;
+        public static final int request=0x7f09000d;
     }
     public static final class layout {
         public static final int actionbar=0x7f030000;
@@ -81,27 +93,53 @@ public final class R {
         public static final int menu=0x7f080000;
     }
     public static final class string {
+        public static final int algay=0x7f060019;
         public static final int app_name=0x7f060000;
+        public static final int barbrady=0x7f060014;
         /**  characters 
- characters 
          */
-        public static final int cartman=0x7f060005;
-        public static final int dashboard_Favorite=0x7f060003;
+        public static final int cartman=0x7f06000b;
+        public static final int chef=0x7f060013;
+        public static final int dashboard_Favorite=0x7f060004;
         public static final int dashboard_all=0x7f060001;
-        public static final int dashboard_pers=0x7f060004;
+        public static final int dashboard_lastupdate=0x7f060003;
+        public static final int dashboard_pers=0x7f060005;
         public static final int dashboard_search=0x7f060002;
-        public static final int garrison=0x7f06000a;
-        public static final int kenny=0x7f060008;
-        public static final int kyle=0x7f060006;
-        public static final int mackey=0x7f060009;
+        public static final int garrison=0x7f060010;
+        public static final int gdperemarch=0x7f060018;
+        public static final int jesus=0x7f060016;
+        public static final int jimbo=0x7f060011;
+        public static final int jimmy=0x7f060017;
+        public static final int kenny=0x7f06000e;
+        public static final int kyle=0x7f06000c;
+        public static final int mackey=0x7f06000f;
         /**  Menu 
  Menu 
          */
-        public static final int menu_rate=0x7f06000c;
-        public static final int menu_request=0x7f06000d;
-        public static final int no_fav=0x7f06000e;
-        public static final int other=0x7f06000b;
-        public static final int stan=0x7f060007;
+        public static final int menu_rate=0x7f06001c;
+        public static final int menu_request=0x7f06001d;
+        public static final int more_actions=0x7f060006;
+        public static final int more_actions_copy=0x7f060008;
+        public static final int more_actions_ringtones=0x7f060007;
+        public static final int more_share=0x7f060009;
+        public static final int msg_copy_error=0x7f060021;
+        public static final int msg_copy_ok=0x7f060022;
+        /**  Msg 
+ Msg 
+         */
+        public static final int msg_ringtone_error=0x7f06001f;
+        public static final int msg_ringtone_ok=0x7f060020;
+        public static final int no_fav=0x7f06001e;
+        public static final int other=0x7f06001b;
+        public static final int principale=0x7f060012;
+        /**  characters 
+         */
+        public static final int select_char=0x7f06000a;
+        public static final int servietsky=0x7f060015;
+        public static final int share_msg=0x7f060024;
+        public static final int share_title=0x7f060023;
+        public static final int stan=0x7f06000d;
+        public static final int timmy=0x7f06001a;
     }
     public static final class style {
         public static final int ActionBarCompat=0x7f070000;

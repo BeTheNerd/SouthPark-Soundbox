@@ -3,9 +3,16 @@
 
     <string name="app_name">South Park SoundBox</string>
     <string name="dashboard_all">Soundbox</string>
-    <string name="dashboard_search">Rechercher</string>
+    <string name="dashboard_search">Rechercher un personnage</string>
+    <string name="dashboard_lastupdate">Derniers ajouts</string>
     <string name="dashboard_Favorite">Favoris</string>
     <string name="dashboard_pers">personnages</string>
+    <string name="select_char">Sélectionner un personnage</string>
+    <string name="more_actions">Plus d\'actions</string>
+    <string name="more_actions_ringtones">Utiliser en tant que sonnerie</string>
+    <string name="more_actions_copy">Récupérer le sons sur ma carte SD</string>
+    <string name="more_share">Partager ce sons</string>
+
     <!-- characters -->
     <string name="cartman">Cartman</string>
     <string name="kyle">Kyle</string>
@@ -13,11 +20,30 @@
     <string name="kenny">Kenny</string>
     <string name="mackey">McKey</string>
     <string name="garrison">Garrison</string>
+    <string name="jimbo">Jimbo</string>
+    <string name="principale">Principale</string>
+    <string name="chef">Chef</string>
+    <string name="barbrady">Barbrady</string>
+    <string name="servietsky">Servietsky</string>
+    <string name="jesus">Jesus</string>
+    <string name="jimmy">Jimmy</string>
+    <string name="gdperemarch">Grand Père March</string>
+    <string name="algay">Al Gay</string>
+    <string name="timmy">Timmy</string>
     <string name="other">Other</string>
+
     <!-- Menu -->
     <string name="menu_rate">Noter cette app</string>
     <string name="menu_request">Réclamer un sons</string>
-    
     <string name="no_fav">Vous n\'avez pas encore de favoris</string>
 
+    <!-- Msg -->
+    <string name="msg_ringtone_error">Erreur dans l\'ajout de la sonnerie. Avez vous une carte SD? </string>
+    <string name="msg_ringtone_ok">Ce sons est maintenant votre sonnerie!</string>
+    <string name="msg_copy_error">Erreur dans l\'ajout du sons. Avez vous une carte SD?</string>
+    <string name="msg_copy_ok">Le sons est disponible sur la carte SD :</string>
+    
+    <string name="share_title">Découvre ce sons de SouthPark Soundbox</string>
+    <string name="share_msg">J\'ai adoré ce sons. Ecoute le aussi. Et décrouvre tous les sons sur l\'application Android ici:</string>
+    
 </resources>

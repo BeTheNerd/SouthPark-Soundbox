@@ -1,7 +1,6 @@
 package stephane.castrec.spbox.activities;
 
-import com.google.android.apps.analytics.GoogleAnalyticsTracker;
-
+import stephane.castrec.spbox.util.SoundsGetter;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -13,18 +12,27 @@ import android.util.Log;
 public class SplashScreen extends Activity {
 	
 	private static final int STOPSPLASH = 0;
-	private static final long SPLASHTIME = 2000;
+	private static final long SPLASHTIME = 1000;
 	
 	private SplashScreen mThis;
 	
 	private Intent i;
 
-	private Handler splashHandler = new Handler() {
+	private Runnable splashRunnable = new Runnable() {
+		@Override
+		public void run() {
+			SoundsGetter.initSounds(mThis);
+	        Message msg = new Message();
+	        msg.what = STOPSPLASH;
+	        quitHandler.sendMessageDelayed(msg, SPLASHTIME);			
+		}
+	};
+	
+	private Handler quitHandler = new Handler() {
 		@Override
 		public void handleMessage(Message msg) {
 			switch (msg.what) {	
 			case STOPSPLASH:	
-				//remove SplashScreen from view
 				startActivity(i);
 				mThis.finish();
 				break;
@@ -42,8 +50,7 @@ public class SplashScreen extends Activity {
         setContentView(R.layout.spashscreen);
         mThis = this;
         i = new Intent (this, DashboardActivity.class);
-        Message msg = new Message();
-        msg.what = STOPSPLASH;
-        splashHandler.sendMessageDelayed(msg, SPLASHTIME);
+        Thread t = new Thread(splashRunnable);
+        t.start();
     }
 }

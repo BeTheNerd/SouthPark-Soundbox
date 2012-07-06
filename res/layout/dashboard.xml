@@ -4,31 +4,30 @@
 
     <Button
         android:id="@+id/dash_all"
-        android:drawableTop="@drawable/actions_speaker_icon"
-        android:text="@string/dashboard_all" 
+        style="@style/ButtonText"
         android:background="@drawable/yellowbtn"
-        style="@style/ButtonText"/>
+        android:drawableTop="@drawable/actions_speaker_icon"
+        android:text="@string/dashboard_all" />
 
     <Button
         android:id="@+id/dash_favorites"
-        android:drawableTop="@drawable/favorites_icon"
-        android:text="@string/dashboard_Favorite" 
+        style="@style/ButtonText"
         android:background="@drawable/yellowbtn"
-        style="@style/ButtonText"/>
+        android:drawableTop="@drawable/favorites_icon"
+        android:text="@string/dashboard_Favorite" />
 
     <Button
         android:id="@+id/dash_search"
-        style="@style/DashboardButton"
+        style="@style/ButtonText"
+        android:background="@drawable/yellowbtn"
         android:drawableTop="@drawable/search_icon"
-        android:text="@string/dashboard_search" 
-        android:visibility="gone"/>
+        android:text="@string/dashboard_search" />
 
-    <!--
-         <Button
-        android:id="@+id/dash_pers"
-        style="@style/DashboardButton"
-        android:drawableTop="@drawable/search-icon"
-        android:text="@string/dashboard_pers" />
-    -->
+    <Button
+        android:id="@+id/dash_last"
+        style="@style/ButtonText"
+        android:background="@drawable/yellowbtn"
+        android:drawableTop="@drawable/news"
+        android:text="@string/dashboard_lastupdate" />
 
 </stephane.castrec.spbox.fragment.DashboardLayout>

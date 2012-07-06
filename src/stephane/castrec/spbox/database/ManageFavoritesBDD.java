@@ -60,7 +60,7 @@ public class ManageFavoritesBDD {
 			//Création d'un ContentValues (fonctionne comme une HashMap)
 			ContentValues values = new ContentValues();
 			//on lui ajoute une valeur associé à une clé (qui est le nom de la colonne dans laquelle on veut mettre la valeur)
-			values.put(COL_PATH, pSound.getPath());
+			values.put(COL_PATH, pSound.getfileName());
 			values.put(COL_PERS, pSound.getPers());
 			//on insère l'objet dans la BDD via le ContentValues
 			long id = _bdd.insert(TABLE_PRODUCT, null, values);
@@ -78,7 +78,7 @@ public class ManageFavoritesBDD {
 			open(false);
 
 			//on insère l'objet dans la BDD via le ContentValues
-			long id =  _bdd.delete(TABLE_PRODUCT, COL_PATH + " = \"" +pSound.getPath()+"\"", null);
+			long id =  _bdd.delete(TABLE_PRODUCT, COL_PATH + " = \"" +pSound.getfileName()+"\"", null);
 			return id;
 		} catch (SQLException e) {
 			Log.i("spbox", "ManageFavoritesBDD insertProduct "+e.getMessage());
@@ -94,7 +94,7 @@ public class ManageFavoritesBDD {
 		try {
 			open(true);
 			//SQLiteDatabase sqlDB = _BaseSqlite.getWritableDatabase();
-			Cursor c = _bdd.query(TABLE_PRODUCT, new String[] {COL_ID, COL_PATH }, "path=\""+pSounds.getPath()+"\"", null, null, null, null);
+			Cursor c = _bdd.query(TABLE_PRODUCT, new String[] {COL_ID, COL_PATH }, "path=\""+pSounds.getfileName()+"\"", null, null, null, null);
 			if(c.getCount()>0){
 				close();
 				return true;
@@ -134,7 +134,7 @@ public class ManageFavoritesBDD {
 			//Sinon on se place sur le premier élément
 			c.moveToPosition(i);
 			Sounds s = new Sounds();
-			s.setPath(c.getString(1));
+			s.setfileName(c.getString(1));
 			s.setPers(c.getString(2));
 			return s;
 		}
@@ -151,7 +151,7 @@ public class ManageFavoritesBDD {
 			//SQLiteDatabase sqlDB = _BaseSqlite.getWritableDatabase();
 			Cursor c = _bdd.query(TABLE_PRODUCT, new String[] {COL_ID, COL_PATH, COL_PERS }, null, null, null, null, null);
 			for(int i=0; i< c.getCount(); i++){
-				list.add(cursorToProduct(c, i).getPath());
+				list.add(cursorToProduct(c, i).getfileName());
 			}
 			close();
 		} catch (Exception e) {

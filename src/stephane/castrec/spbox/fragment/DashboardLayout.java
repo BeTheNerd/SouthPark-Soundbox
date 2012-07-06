@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 
 public class DashboardLayout extends ViewGroup {
 
-	private static final int UNEVEN_GRID_PENALTY_MULTIPLIER = 3;
+	private static final int UNEVEN_GRID_PENALTY_MULTIPLIER = 4;
 
 	private int mMaxChildWidth = 0;
 	private int mMaxChildHeight = 0;
